@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+}
+
+.solid {
+    border-color: #ffffff3d;
+}
+
+.light {
+    border-color: #ffffff27;
+}
+
+.liste  {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-right: 25px;
+}
+
+.titre  {
+    font-size: 30px;
+}
+
+.boxleft {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.boxright {
+    padding: 20px;
+    margin-right: 50px;
+}
+
+@media screen {
+    
+}

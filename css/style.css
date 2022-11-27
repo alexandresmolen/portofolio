@@ -1,0 +1,143 @@
+@import url(components/navbar.css);
+@import url(components/button.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    font-size: 20px;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.design {
+    gap: 0px;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin-right: 150px;
+}
+
+.box1 {
+    padding: 25px;
+    margin-left: 100px;
+}
+
+.imageronde {
+    border-radius: 600px;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.texte {
+    padding-left: 25px;
+    font-size: 17px;
+    font-weight: 500s;
+}
+
+
+
+.communication {
+    background-color: rgb(253, 253, 253);
+}
+
+.grid {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(100px,auto);
+    border-width: 50px;
+    margin: auto;
+}
+
+.affiche {  
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(228, 228, 228);
+}
+
+.tiger {
+    grid-column: 1/2;
+    grid-row: 1;
+    scale: 0.6;
+}
+
+.panda {
+    grid-column: 2/2;
+    grid-row: 1;
+    scale: 0.6;
+}
+
+.affichedesc {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: auto;
+}
+
+.affichedesc2 {
+    grid-column: 2/2;
+    grid-row: 1;
+    margin: auto;
+}
+
+.soulhunter {
+    width: 600px;
+    padding: 50px;
+    margin-left: 25px;
+}
+
+.character {
+    width: 1200px;
+    padding: 50px;
+}
+
+.flex   {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.flexy  {
+    font-weight: 900;
+    font-size: 58px;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.flexy:hover {
+    scale: 1.1;
+}
+
+.lametric {
+    object-fit: fill;
+}
+
+.code {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 2em;
+    color: white;
+    font-weight: 700;
+    background: black;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.decouvrir {
+    border-radius: 50px;
+    scale: 0.7;
+    align-self: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #383838;
+    transform: scale(1.1);
+}
